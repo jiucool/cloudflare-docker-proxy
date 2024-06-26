@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.jiucool.net": dockerHub,
-  "quay.jiucool.net": "https://quay.io",
-  "gcr.jiucool.net": "https://gcr.io",
-  "k8s-gcr.jiucool.net": "https://k8s.gcr.io",
-  "k8s.jiucool.net": "https://registry.k8s.io",
-  "ghcr.jiucool.net": "https://ghcr.io",
-  "cloudsmith.jiucool.net": "https://docker.cloudsmith.io",
-  "ecr.jiucool.net": "https://public.ecr.aws",
+  "docker.nlarks.com": dockerHub,
+  "quay.nlarks.com": "https://quay.io",
+  "gcr.nlarks.com": "https://gcr.io",
+  "k8s-gcr.nlarks.com": "https://k8s.gcr.io",
+  "k8s.nlarks.com": "https://registry.k8s.io",
+  "ghcr.nlarks.com": "https://ghcr.io",
+  "cloudsmith.nlarks.com": "https://docker.cloudsmith.io",
+  "ecr.nlarks.com": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.nlarks.com": dockerHub,
 };
 
 function routeByHosts(host) {
