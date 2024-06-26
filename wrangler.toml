@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
  routes = [
-   { pattern = "docker.jiucool.net", custom_domain = true },
-   { pattern = "quay.jiucool.net", custom_domain = true },
-   { pattern = "gcr.jiucool.net", custom_domain = true },
-   { pattern = "k8s-gcr.jiucool.net", custom_domain = true },
-   { pattern = "k8s.jiucool.net", custom_domain = true },
-   { pattern = "ghcr.jiucool.net", custom_domain = true },
-   { pattern = "cloudsmith.jiucool.net", custom_domain = true },
+   { pattern = "docker.nlarks.com", custom_domain = true },
+   { pattern = "quay.nlarks.com", custom_domain = true },
+   { pattern = "gcr.nlarks.com", custom_domain = true },
+   { pattern = "k8s-gcr.nlarks.com", custom_domain = true },
+   { pattern = "k8s.nlarks.com", custom_domain = true },
+   { pattern = "ghcr.nlarks.com", custom_domain = true },
+   { pattern = "cloudsmith.nlarks.com", custom_domain = true },
  ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.jiucool.net", custom_domain = true }
+# route = { pattern = "docker-staging.nlarks.com", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
